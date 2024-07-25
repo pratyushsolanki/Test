@@ -1,34 +1,27 @@
-# dockerAssignment
-#This is assignment project for virtualization and cloud computing
-AUTHOR -    VIDYUT BHASKAR
-ROLL -      G23AI2128
-COURSE-     PGDDE 2024-25
-SUBJECT     VIRTUALIZATION AND CLOUD COMPUTING
+Student Name: Pratyush Solanki
+Student ID: G23AI2049
+Program: PGDDE 2024-25
+Course: Virtualization and Cloud Computing
 
-Objective - Create a Docker image of Web Application and Deploy and Run inside the container
+Task Goal - 
+To create a Docker image for a web application, deploy it, and run it inside a Docker container.
 
-There are two options to build container applications
-1. Build the project and later containerize it
-2. Build the project inside the the container
+For this task, we will build and deploy a Django application inside a Docker container.
 
-In This assignment we will option2 to build and deploy a DjangoApplication inside the container
+Requirements - 
+- GitHub Repository
+- YouTube Tutorial
+- Necessary Software
+- Docker Desktop
+- Visual Studio Code (VS Code)
+- VS Code Extensions: Python and Docker (both from verified sources)
 
-Assignment Requirements
-1. Git-Hub Repos
-2. Youtube Video
-
-Software Pre-Requisites
-1. Docker Desktop
-2. IDE - VS Code
-3. VS Code Extensions - Python and Docker from verified sources
-
-Steps
-1. Create docker-compose.yml - store container configuration
-2. Create Dockerfile - store image information
-3. Create requirements.txt - provide Django server version requirements
-4. run command:  'docker-compose run web django-admin startproject myTestProject .' -- this will build project in the root folder
-5. run container docker-compose up
-6. Check container name in powershell docker ps
-7. Start new app command  'docker exec dockerassignment-web-1 python manage.py startapp <app-name>
-
-ex - let us change the response of the WelcomeUser App
+Procedure - 
+- Create a docker-compose.yml File: This file will define the container setup.
+- Create a Dockerfile: This file will include the details of the image configuration.
+- Create a requirements.txt File: This file will list the necessary Django server version.
+- Run the Project Initialization Command - initializes the project in the current directory.
+- Launch the Container
+- Identify the Running Container
+- Create a New App within the Container
+- Replace <container_id> with your container's actual ID.
